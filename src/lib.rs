@@ -19,7 +19,8 @@ use std::cmp::Ordering;
 pub mod error;
 pub mod lex;
 mod parse;
-use crate::error::CalcError;
+
+pub use crate::error::CalcError;
 use crate::lex::*;
 use crate::parse::*;
 
